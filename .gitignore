@@ -1,0 +1,7 @@
+# Project exclude paths
+/task-code-generator/target/
+/task-dao/target/
+/task-mgr/target/
+/task-service/target/
+/task-util/target/
+/task-web/target/
