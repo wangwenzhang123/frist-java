@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="task-web:war">
+    <output-path>$PROJECT_DIR$/task-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>task-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="task-web-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="task-web:war exploded" />
+    </root>
+  </artifact>
+</component>

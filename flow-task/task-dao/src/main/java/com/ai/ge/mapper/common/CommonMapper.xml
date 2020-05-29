@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ai.ge.mapper.common.CommonMapper">
+
+    <!-- 获取系统时间 oracle-->
+<!--    <select id="getSysTime" resultType="java.time.LocalDateTime" flushCache="true">-->
+<!--        select sysdate from dual-->
+<!--    </select>-->
+    <!-- 获取系统时间 mysql-->
+    <select id="getSysTime" resultType="java.time.LocalDateTime" flushCache="true">
+        select now()
+    </select>
+
+</mapper>

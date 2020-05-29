@@ -1,0 +1,14 @@
+  ____                         ____            _           _
+ |  _ \  ___ _ __ ___   ___   |  _ \ _ __ ___ (_) ___  ___| |_
+ | | | |/ _ \ '_ ` _ \ / _ \  | |_) | '__/ _ \| |/ _ \/ __| __|
+ | |_| |  __/ | | | | | (_) | |  __/| | | (_) | |  __/ (__| |_
+ |____/ \___|_| |_| |_|\___/  |_|   |_|  \___// |\___|\___|\__|
+                                            |__/
+
+ ${AnsiColor.BRIGHT_RED}
+ Developer By：蒋正东
+
+ Application Version: 1.0.1
+
+ Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
+

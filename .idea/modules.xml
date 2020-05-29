@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/flow-task.iml" filepath="$PROJECT_DIR$/flow-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-code-generator/task-code-generator.iml" filepath="$PROJECT_DIR$/task-code-generator/task-code-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-dao/task-dao.iml" filepath="$PROJECT_DIR$/task-dao/task-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-mgr/task-mgr.iml" filepath="$PROJECT_DIR$/task-mgr/task-mgr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-service/task-service.iml" filepath="$PROJECT_DIR$/task-service/task-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-util/task-util.iml" filepath="$PROJECT_DIR$/task-util/task-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/task-web/task-web.iml" filepath="$PROJECT_DIR$/task-web/task-web.iml" />
+    </modules>
+  </component>
+</project>
