@@ -38,9 +38,9 @@ public class PictureController extends BaseController {
     public String insertPicture(  String url,  Integer type) {
         int code=pictureService.insert(url,type);
         if (code == 1){
-            return JSON.toJSONString(BaseEntity.failure());
-        }else {
             return JSON.toJSONString(BaseEntity.success(null));
+        }else {
+            return JSON.toJSONString(BaseEntity.failure());
         }
     }
     @ResponseBody
