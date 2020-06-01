@@ -62,7 +62,12 @@ spring:
 #  # templates中的所有文件后缀名，如/templates/main.html
 #    suffix: .html
 
-
+# PageHelper分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
 
 #  redis:
 #    database: 0

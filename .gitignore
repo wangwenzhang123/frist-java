@@ -5,3 +5,4 @@
 /task-service/target/
 /task-util/target/
 /task-web/target/
+logs/log.log

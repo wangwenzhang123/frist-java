@@ -10,6 +10,14 @@ public class Picture {
     @TableId(value ="id",type = IdType.AUTO)
     private Long id;
 
+    public Picture() {
+    }
+
+    public Picture(String url, Integer type) {
+        this.url = url;
+        this.type = type;
+    }
+
     public Long getId() {
         return id;
     }
